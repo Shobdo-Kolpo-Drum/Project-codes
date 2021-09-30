@@ -48,22 +48,3 @@ def Diff(li1, li2):
     return list(set(li1) - set(li2)) + list(set(li2) - set(li1))
 print(Diff(files_to_find,files_copied))
 print("Finished!!!")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
