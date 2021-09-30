@@ -64,8 +64,6 @@ Training our dataset with the framework.To do so we need to set some flags(--) a
   --es_epochs 10 \
   --use_allow_growth true \
   
-  # Some useful flags
-  
   # Install SOX
   For managing the wav files of different types
   
@@ -76,7 +74,13 @@ Training our dataset with the framework.To do so we need to set some flags(--) a
  > !deepspeech --model path-to-model --audio path-to-audio-you-want-to-convert-to-text
   
   
+  # Text to braille
   
+  After getting the text output from the model,we will feed  it to text_to_braille.py and it'llconvert it to braille charecter.
+  
+  # Braille to Display
+  
+ After converting to braille we will  send the braille code to the Speech_To_Braille_Hardware.py and it will convert it and show it on our displlay or machine.
 
 
   
