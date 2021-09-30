@@ -1,6 +1,17 @@
 # Project-codes
 All the codes we built for the project.
 We are not allowing anyone to copy or use this code for now.But hopefully we will let it be open source for all in near future
+# Codes for preparing the dataset for our framework
+
+>File_Copy_Reading_txt_to_Folder_and_Check.py
+
+> alphabet.py for alphabet generator in bengali
+
+> file_name_size.py to calculate the size of wav file
+
+> ftwdebugger.py for flac to wav converted files errorcheck
+
+> xldebug.py  to check if there is any alphabet mistake in the excel file
 
 # Procedure
 Should follow the rules below to finish the training.We are using google collab for training purposes.The instructions here are given accordingly.
@@ -76,7 +87,7 @@ Training our dataset with the framework.To do so we need to set some flags(--) a
   
   # Text to braille
   
-  After getting the text output from the model,we will feed  it to text_to_braille.py and it'llconvert it to braille charecter.
+  After getting the text output from the model,we will feed  it to bangla_text_to_braille_conveter.py and it'll convert it to braille charecter.
   
   # Braille to Display
   
